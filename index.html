@@ -10,23 +10,54 @@
 
 </header>
 <body>
+
+    <h1>Cheech's Pizza</h1>
+    <style>
+    h1 { 
+        text-align: center; 
+    }
+
+    body {
+        text-align: center;
+    }
+    </style>
+
+
+
     <form id="orderForm">
         Name: <br>
-        <input type="text" name="Name" id="name">
+        <input type="text" name="Name" id="name"> <br>
         Phone Number: <br>
-        <input type="text" name="phone" id="phone">
+        <input type="text" name="phone" id="phone"> <br>
         How many pizzas do you want to order:<br>
         <select name="quantity" id="pizzaQty">
             
-        </select>
+        </select> <br>
+
+        <select name="pizzaType" id="pizzaType">
+        
+        </select> <br>
         
 
 
     </form>
-    
+  
+          
+
 
     <input type="button" value="Accept" id="but1"> 
-    <input type="button" value="Add Items" id="but1">
+    <input type="button" value="order" id="but2">
+
+
+    <ul id="list">
+
+
+    </ul>
+
+    <ul id="orderList">
+
+        
+    </ul>
     
     <script src="script.js"></script>
 </body>    
