@@ -10,3 +10,4 @@ function addItems() {
         taskList.innerHTML += "<li>" + pizzaTpe[i] + "</li>";
     }
 }
+
