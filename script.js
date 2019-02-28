@@ -3,7 +3,7 @@
 
 var pizzas = ["Cheese", "Pepperoni", "Veggie", "Meat Lovers", "Hawaiian" ];
 
-document.getElementById(`but1`).addEventListener("click", addItems);
+//document.getElementById(`but1`).addEventListener("click", addItems);
 
 
 //displays pizza types, we might be able to set option.value to a second array 
@@ -44,6 +44,6 @@ document.getElementById(`but2`).addEventListener("click", orderTotal);
 function orderTotal() {
     tasklist = document.getElementById(`orderList`);
     
-       taskList.innerHTML += "<li>" +;
+       //taskList.innerHTML += "<li>" +;
 
 }
