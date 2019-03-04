@@ -27,7 +27,7 @@ button1.onclick = addItems;
     var subTotal = quantity * price;
     var total = (subTotal*tax) + subTotal;
     var total2 = total.toFixed(2);    
-    window.alert("your total is: $" + total2 +"\n if this is correct please click place order");
+    window.alert("Your total is: $" + total2 +"\n If this is correct please click place order");
     }
 
     
