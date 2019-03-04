@@ -1,11 +1,8 @@
-
-
-
 var pizzas = ["Cheese", "Pepperoni", "Veggie", "Meat Lovers", "Hawaiian" ];
 var prices = [7.99,8.99,9.99,10.99,9.99];
-
-
-
+ 
+ 
+ 
 //displays pizza types, we might be able to set option.value to a second array 
 //with prices for each type of pizzas, I haven't played with it yet
 window.onload = addPizzas();
@@ -16,7 +13,7 @@ function addPizzas(){
         option.innerHTML = pizzas[i];
         option.value = prices[i]; 
         pizzaTypes.appendChild(option);
-              
+               
     } 
 }
 button1 = document.getElementById(`but1`);
@@ -30,25 +27,11 @@ button1.onclick = addItems;
     window.alert("your total is: $" + total +"\n if this is correct please click place order");
     }
 
-
-
-
-//Need to drop have a drop down menu for the pizza, also it says
-//that they can only order one type of pizza, which will make things easier. 
-
-// They will pick the pizza choice
-
-//Then how many they want    
-
-//Could write out the list of Pizza before the choice, 
-//then type in choice of pizza, then how many? 
-
-//document.getElementById(`but2`).addEventListener("click", orderTotal);
-
-//Order Button, will call this method, will print out final order list
+//Order Button Refreshes page
+button2 = document.getElementById(`but2`);
+button2.onclick= orderTotal;
 function orderTotal() {
-    tasklist = document.getElementById(`orderList`);
-    
-       //taskList.innerHTML += "<li>" +;
-
+    window.alert("Thank you " + document.getElementById(`name`) +
+    "for your order: " + document.getElementById(`phone`));
 }
+    
