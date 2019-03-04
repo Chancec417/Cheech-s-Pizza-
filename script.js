@@ -23,8 +23,11 @@ button1.onclick = addItems;
     var price = pizzaSelection.options[pizzaSelection.selectedIndex].value;
     var pizzaQty = document.getElementById('pizzaQty');
     var quantity = pizzaQty.options[pizzaQty.selectedIndex].value;
-    var total = quantity * price;
-    window.alert("your total is: $" + total +"\n if this is correct please click place order");
+    var tax = .0765
+    var subTotal = quantity * price;
+    var total = (subTotal*tax) + subTotal;
+    var total2 = total.toFixed(2);    
+    window.alert("your total is: $" + total2 +"\n if this is correct please click place order");
     }
 
 //Order Button Refreshes page
