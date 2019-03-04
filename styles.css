@@ -1,0 +1,23 @@
+html{
+    background: url(pizza.jpg) no-repeat fixed; 
+    background-size:100%;
+
+}
+
+h1{
+    font-size:2em;
+    color:greenyellow;
+
+}
+
+form{
+    background: rgba(255, 255, 255, 0.6);
+    margin: 20px;
+	padding: 20px;
+	box-shadow: 1px 1px 2px grey;
+	line-height: 1.4em;
+	font-size:1.2em;
+    text-align:left;
+    
+}
+

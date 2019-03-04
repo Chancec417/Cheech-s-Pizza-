@@ -36,7 +36,7 @@ button1.onclick = addItems;
 button2 = document.getElementById(`but2`);
 button2.onclick= orderTotal;
 function orderTotal() {
-    window.alert("Thank you " + document.getElementById(`name`).value +
-    " for your order: " + document.getElementById(`phone`).value);
+    window.alert("Thank you for your order, " + document.getElementById(`name`).value + "\n Your contact number: " +
+  document.getElementById(`phone`).value + "\n Your pizza will arrive in 30 minutes or less!");
 }
     
