@@ -30,11 +30,13 @@ button1.onclick = addItems;
     window.alert("your total is: $" + total2 +"\n if this is correct please click place order");
     }
 
+    
+
 //Order Button Refreshes page
 button2 = document.getElementById(`but2`);
 button2.onclick= orderTotal;
 function orderTotal() {
-    window.alert("Thank you " + document.getElementById(`name`) +
-    "for your order: " + document.getElementById(`phone`));
+    window.alert("Thank you " + document.getElementById(`name`).value +
+    " for your order: " + document.getElementById(`phone`).value);
 }
     
