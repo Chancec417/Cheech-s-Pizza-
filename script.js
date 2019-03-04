@@ -35,8 +35,10 @@ button1.onclick = addItems;
 //Order Button Refreshes page
 button2 = document.getElementById(`but2`);
 button2.onclick= orderTotal;
-function orderTotal() {
+function orderTotal() {    
+
+    var pizzaNum = (document.getElementById('typeSelect').selectedIndex -1 );
     window.alert("Thank you for your order, " + document.getElementById(`name`).value + "\n Your contact number: " +
-  document.getElementById(`phone`).value + "\n Your pizza will arrive in 30 minutes or less!");
+  document.getElementById(`phone`).value + "\n Your " +pizzas[pizzaNum] + " pizza (x" + document.getElementById(`pizzaQty`).value + ") will arrive in 30 minutes or less!");
 }
     
